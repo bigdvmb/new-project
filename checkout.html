@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Checkout</title>
+    <title>Products</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
@@ -14,45 +14,55 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <img
-          class="nav-item"
-            src="images/logo2.avif" 
-            height="50"
-          /> 
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            </a>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="product.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="checkout.html">Checkout</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav mr-auto">
-
-            <li class="nav-item">
-              <a class="nav-link" href="user-reg.html">login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="user-reg.html">Sign Up</a>
-            </li>
-
-
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText" id="navbarSupportedContent">
+  
+            <img class="nav-item" src="images/logo2.avif" height="50" />
+            <h6 class="text-center fw-bold mx-3 mb-0" style="text-align: center;">Stututu</h6>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+  
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Inventory
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-item" href="Stock">Stock</a></li>
+                    <li><a class="dropdown-item nav-item" href="JDM">JDM</a></li>                 
+                    <li><a class="dropdown-item nav-item" href="Sport">Sport</a></li>
+                  </ul>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Catagory</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="checkout.html">Checkout</a>
+              </li>
+            </ul>
+          
+                
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="user-login.html">login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="user-reg.html">Sign Up</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </div>
+      </nav>
+    </header>
     <main>
         <h1 class="name">Checkout</h1>
     </main>
