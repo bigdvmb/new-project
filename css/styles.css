@@ -54,3 +54,29 @@ div {
     height: 100%;
   }
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #btn2 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+#btn2 button:hover{
+    /* background-color: black; */
+    background-color: gray;
+}
+  

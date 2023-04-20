@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <header>
-<nav class="navbar navbar-expand-lg">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <img
-          class="nav-item"
-            src="images/logo2.avif" 
-            height="50"
-          /> 
+        <div class="collapse navbar-collapse" id="navbarText" id="navbarSupportedContent">
+
+          <img class="nav-item" src="images/logo2.avif" height="50" />
+          <h6 class="text-center fw-bold mx-3 mb-0" style="text-align: center;">Stututu</h6>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            </a>
+            
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Inventory
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item nav-item" href="Stock">Stock</a></li>
+                  <li><a class="dropdown-item nav-item" href="JDM">JDM</a></li>                 
+                  <li><a class="dropdown-item nav-item" href="Sport">Sport</a></li>
+                </ul>
+              </li>
             <li class="nav-item">
-              <a class="nav-link" href="product.html">Products</a>
+              <a class="nav-link" href="product.html">Catagory</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="checkout.html">Checkout</a>
             </li>
           </ul>
-          <h6 class="text-center fw-bold mx-3 mb-0" style="text-align: center;">Stututu</h6>
+        
+              
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="user-login.html">login</a>
@@ -51,62 +61,152 @@
         </div>
       </div>
     </nav>
+  </header>
+  <!-- <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
 
-    </header>
-    
-  </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
 
-    <!-- <header>
-      <div id="header-image-menu">
-        <img src="images/supra3.jpg" />
-        <h1 style="font-size: 5em;" id="image-text" class="text-center fw-bold mx-3 mb-0">Stututu</h1>
+          <img class="nav-item" src="images/logo2.avif" height="50" />
+          <h6 class="text-center fw-bold mx-3 mb-0" style="text-align: center;">Stututu</h6>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="checkout.html">Checkout</a>
+            </li>
+          </ul>
+          
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="user-login.html">login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="user-reg.html">Sign Up</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </header> -->
-    <main>
-      <div id="header-image-menu">
+    </nav>
+  </header> -->
+  
+
+
+  <main>
+    <!-- <div id="header-image-menu">
         <img src="images/supra3.jpg" />
-        
-      </div>
+        </div> -->
 
 
-      <!-- <section class="vh-100">
-        <div class="container-fluid h-custom"> -->
-          <!-- <div class="row d-flex justify-content-center align-items-center h-100"> -->
-            <!-- <div class="text-center fw-bold mx-3 mb-0"> -->
-              <!-- <img src="images/logo2.avif" class="img-fluid" alt="Sample image"> -->
-            <!-- </div>
+    <section class="vh-100">
+      <!-- <div class="container-fluid h-custom">
+          <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="text-center fw-bold mx-3 mb-0">
-              <form>
-               
-  
-                <div class="divider d-flex align-items-center my-4">
-                  <p class="text-center fw-bold mx-3 mb-0">Boo Hoo!</p>
+              <img src="images/logo2.avif" class="img-fluid" alt="Sample image">
+            </div>
+            <div class="text-center fw-bold mx-3 mb-0"> -->
+
+
+
+      <div class="divider d-flex align-items-center my-4">
+        <p class="text-center fw-bold mx-3 mb-0">Welcome to Stututu.</p>
+      </div>
+      <div>
+        <p class="text-center mx-3 mb-0"> The name of our company comes from the sound of a turbo's spool. Stututu is a
+          place where you can rent our cars ranging from Super cars to JDM's.</p>
+      </div>
+      <div>
+        <p class="text-center mx-3 mb-0"> Our cars are equiped with thier own features. Some of these features may
+          include a simple body work or body work's from LB Walk.</p>
+      </div>
+      <div>
+        <p class="text-center mx-3 mb-0"> Our cars also comme in stock or having the choice to pick one that is heavily
+          modified :)</p>
+      </div>
+
+      <div class="container">
+        <h4 class="text-center fw-bold" style="padding-top: 30px;">INVENTORY</h4>
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/supra.jpg" alt="" class="card image-top" width="">
+              <div class="card-body">
+                <h5 class="card-title text-center">Stock</h5>
+                <p class="card-text tex-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, accusamus!</p>
+                <div id="btn2" class="text-center">
+                  <button><a class="nav-link" href="">View more</a></button>
                 </div>
-  
-  
-  
-                <div class="text-center fw-bold mx-3 mb-0">
-                  
-                  <p class="small fw-bold mt-2 pt-1 mb-0">Thats too bad. Have you tried REMEMBERING??</p>
-                      <p>
-                          <a href="user-login.html"
-                      class="link-danger">Login</a>
-                      <a href="user-reg.html"
-                      class="link-danger">Register</a>
-  
-                      </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/porshe.jpg" alt="" class="card image-top" width="" height="">
+              <div class="card-body">
+                <h5 class="card-title text-center">Super</h5>
+                <p class="card-text tex-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, accusamus!</p>
+                <div id="btn2" class="text-center">
+                  <button><a class="nav-link" href="">View more</a></button>
                 </div>
-              </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/supra.jpg" alt="" class="card image-top" width="">
+              <div class="card-body">
+                <h5 class="card-title text-center">JDM</h5>
+                <p class="card-text tex-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, accusamus!</p>
+                <div id="btn2" class="text-center">
+                  <button><a class="nav-link" href="">View more</a></button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div
+
+      </div>
+
+
+      <!-- <div class="divider d-flex align-items-center my-4">                  
+                  <p class="text-center fw-bold mx-3 mb-0">Our cars</p>                      
+                </div>
+                <div class="container-fluid">
+                  <div class="column fw-bold">STOCK
+                    <img src="images/supra.jpg" width="480"/>
+
+                  </div>
+                  <div class="column fw-bold">SPORTS
+                    <img src="images/porshe.jpg" width="480" height="320"/>
+
+                  </div>
+                  <div class="column fw-bold">JDM
+                    <img src="images/supra.jpg" width="480"/>
+
+                  </div>
+                </div> -->
+
+      </div>
+      </div>
+      </div>
+      <!-- <div
           class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-secondary">
   
   
   
-        </div>
-      </section> -->
+        </div> -->
+    </section>
 
 
 
@@ -116,12 +216,11 @@
 
 
 
-    </main>
-    
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js)"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js)"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
